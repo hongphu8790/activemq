@@ -7,7 +7,7 @@
     <packaging>jar</packaging>
 
     <properties>
-        <activemq.version>5.11.1</activemq.version>
+        <activemq.version>5.12-SNAPSHOT</activemq.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.source>1.7</maven.compiler.source>
         <maven.compiler.target>1.7</maven.compiler.target>
@@ -35,4 +35,10 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+    <repositories>
+        <repository>
+            <id>activemq</id>
+            <url>https://repository.apache.org/content/repositories/snapshots/</url>
+        </repository>
+    </repositories>
 </project>
